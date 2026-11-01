@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USs/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=bb358ae88bc497f4489449e58a07e227&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(135, 217, 134);">
+        <ui:Label text="Don&apos;t Idle Around" name="Header" class="header" style="top: 100px;"/>
+        <ui:Button text="Play" name="Play" class="Button" style="font-size: 40px; top: 200px;"/>
+        <ui:Button text="Quit&#10;" name="Quit" class="Button" style="top: 300px; font-size: 40px;"/>
+    </ui:VisualElement>
+</ui:UXML>
